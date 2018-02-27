@@ -175,12 +175,12 @@ class WPP_Public {
 
         // Get translated object ID
         $translate = WPP_translate::get_instance();
-        $post_ID = $translate->get_object_id(
-            $post_ID,
-            get_post_type( $post_ID ),
-            true,
-            $translate->get_default_language()
-        );
+//        $post_ID = $translate->get_object_id(
+//            $post_ID,
+//            get_post_type( $post_ID ),
+//            true,
+//            $translate->get_default_language()
+//        );
 
         $now = WPP_helper::now();
         $curdate = WPP_helper::curdate();
